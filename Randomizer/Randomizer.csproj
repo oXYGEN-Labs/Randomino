@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>Randomizer</AssemblyName>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Prism.DryIoc" Version="7.2.0.1422" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Modules\Randomizer.Modules.SimpleRandom\Randomizer.Modules.SimpleRandom.csproj" />
+    <ProjectReference Include="..\Randomizer.Core\Randomizer.Core.csproj" />
+    <ProjectReference Include="..\Services\Randomizer.Services.Interfaces\Randomizer.Services.Interfaces.csproj" />
+    <ProjectReference Include="..\Services\Randomizer.Services\Randomizer.Services.csproj" />
+  </ItemGroup>
+</Project>

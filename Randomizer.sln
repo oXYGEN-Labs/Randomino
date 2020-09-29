@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9C23D79F-E166-4D98-BF81-06294A6ADA3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{2AA6F54E-B9C0-471E-A9BF-301B0115BC11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{D13C8540-F4C4-409D-929B-0FD01661FD90}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Randomizer.Services", "Services\Randomizer.Services\Randomizer.Services.csproj", "{8606879B-391D-44AC-B639-AE0BD30419F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Randomizer.Services.Interfaces", "Services\Randomizer.Services.Interfaces\Randomizer.Services.Interfaces.csproj", "{A1BAA6B0-A7FE-45CE-829D-4CD166AA6A79}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Randomizer", "Randomizer\Randomizer.csproj", "{994BB91A-9759-4164-A5EB-6AB492084924}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Randomizer.Core", "Randomizer.Core\Randomizer.Core.csproj", "{7692B730-291B-4263-8AE0-9810E4CA07DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Randomizer.Modules.SimpleRandom", "Modules\Randomizer.Modules.SimpleRandom\Randomizer.Modules.SimpleRandom.csproj", "{B8ADE334-F652-48EE-860D-E4296979DD9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8606879B-391D-44AC-B639-AE0BD30419F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8606879B-391D-44AC-B639-AE0BD30419F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8606879B-391D-44AC-B639-AE0BD30419F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8606879B-391D-44AC-B639-AE0BD30419F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1BAA6B0-A7FE-45CE-829D-4CD166AA6A79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1BAA6B0-A7FE-45CE-829D-4CD166AA6A79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1BAA6B0-A7FE-45CE-829D-4CD166AA6A79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1BAA6B0-A7FE-45CE-829D-4CD166AA6A79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{994BB91A-9759-4164-A5EB-6AB492084924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{994BB91A-9759-4164-A5EB-6AB492084924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{994BB91A-9759-4164-A5EB-6AB492084924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{994BB91A-9759-4164-A5EB-6AB492084924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7692B730-291B-4263-8AE0-9810E4CA07DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7692B730-291B-4263-8AE0-9810E4CA07DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7692B730-291B-4263-8AE0-9810E4CA07DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7692B730-291B-4263-8AE0-9810E4CA07DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8ADE334-F652-48EE-860D-E4296979DD9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8ADE334-F652-48EE-860D-E4296979DD9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8ADE334-F652-48EE-860D-E4296979DD9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8ADE334-F652-48EE-860D-E4296979DD9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8606879B-391D-44AC-B639-AE0BD30419F7} = {D13C8540-F4C4-409D-929B-0FD01661FD90}
+		{A1BAA6B0-A7FE-45CE-829D-4CD166AA6A79} = {D13C8540-F4C4-409D-929B-0FD01661FD90}
+		{B8ADE334-F652-48EE-860D-E4296979DD9F} = {2AA6F54E-B9C0-471E-A9BF-301B0115BC11}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03EE4111-12D8-4910-91A3-C3BD0ED781AA}
+	EndGlobalSection
+EndGlobal
